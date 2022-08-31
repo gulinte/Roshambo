@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock, Paper, Scissors!</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+QLD+Beginner&family=Lato&family=Noto+Sans&family=Nunito&family=Poppins&family=Roboto+Mono:ital,wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <p class="header">Rock, Paper, Scissors!</p>
+  <h2 class="choice">Computer Choice: <span id="com-cho"></span></h2>
+  <h2 class="choice">Your Choice: <span id="user-cho"></span></h2>
+  <h2 class="choice game">Result: <span id="result"></span></h2>
+  <div class="grid-container">
+    <div class="grid-item rock"><button id="rock" class="rock-g" type="button" name="button">Rock</button></div>
+    <div class="grid-item"> <button id="paper" type="button" class="paper-g" name="button">Paper</button></div>
+    <div class="grid-item"> <button id="scissors" type="button" class="scissors-g" name="button">Scissors</button></div>
+  </div>
+  <div class="grid-containers">
+    <div class="grid-item rockk"><img class="img r" src="rock.PNG" alt="rock" height="150" width="150"></div>
+    <div class="grid-item"><img class="img p" src="paper.PNG" alt="paper" height="150" width="148"></div>
+    <div class="grid-item"><img class="img s" src="scissors.PNG" alt="scissors" height="150" width="150"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+  <p class="footer">Made by <a href="https://github.com/gulinte" class="link">gulinte</a></p>
+</body>
+
+</html>

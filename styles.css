@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins';
+  background-color: #F7ECDE;
+  color: #54BAB9;
+}
+
+.header {
+  text-align: center;
+  font-size: 3.7rem;
+}
+
+.choice {
+  text-align: center;
+}
+
+.game {
+  padding-bottom: 3.5%;
+}
+
+.grid-container {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px 162px;
+}
+
+.grid-containers {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px 40px;
+}
+
+.rock {
+  padding-left: 32%;
+}
+
+.rockk {
+  padding-left: 5%;
+}
+
+.rock-g {
+  padding-left: 170%;
+  padding-right: 200%;
+}
+
+.paper-g {
+  padding-left: 130%;
+  padding-right: 130%;
+}
+
+.scissors-g {
+  padding-left: 90%;
+  padding-right: 90%;
+}
+
+.img {
+  padding-top: 25%;
+  padding-left: 280%;
+}
+
+.footer {
+  padding-top: 3%;
+  text-align: center;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.link {
+  color: #54BAB9;
+}
